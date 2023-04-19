@@ -1,0 +1,8 @@
+prefix=/home/hisen/Project/ROS/CR_Mine/devel
+
+Name: implement
+Description: Description of implement
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

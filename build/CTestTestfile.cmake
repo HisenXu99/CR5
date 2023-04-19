@@ -6,5 +6,6 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("dobot_gazebo")
+subdirs("implement")
 subdirs("dobot_description")
 subdirs("cr5_moveit")
