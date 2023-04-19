@@ -131,8 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/hisen/Project/ROS/CR_Mine/build/gtest/cmake_install.cmake")
-  include("/home/hisen/Project/ROS/CR_Mine/build/cr5_moveit/cmake_install.cmake")
   include("/home/hisen/Project/ROS/CR_Mine/build/dobot_gazebo/cmake_install.cmake")
+  include("/home/hisen/Project/ROS/CR_Mine/build/dobot_description/cmake_install.cmake")
+  include("/home/hisen/Project/ROS/CR_Mine/build/cr5_moveit/cmake_install.cmake")
 
 endif()
 

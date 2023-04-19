@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <launch>
   <arg name="DOBOT_TYPE" default="$(env DOBOT_TYPE)" />
+  <!--这些参数用来确定插入机械臂的位置和姿态-->
   <arg name="value1" default="0" />
   <arg name="value2" default="0" />
   <arg name="value3" default="0.965" />

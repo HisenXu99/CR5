@@ -5,5 +5,6 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("cr5_moveit")
 subdirs("dobot_gazebo")
+subdirs("dobot_description")
+subdirs("cr5_moveit")
