@@ -1,0 +1,8 @@
+prefix=/home/hisen/Project/ROS/CR_Mine/install
+
+Name: get_database
+Description: Description of get_database
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

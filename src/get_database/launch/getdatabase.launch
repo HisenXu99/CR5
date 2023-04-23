@@ -1,0 +1,6 @@
+<launch>
+  <!-- get right arm msg from joint states-->
+    <node pkg="get_database" type="change_pose.py" name="change_pose" />
+  <!-- get torso msg from joint states-->
+    <!--node pkg="get_database" type="get_picture.py" name="" /-->
+</launch>

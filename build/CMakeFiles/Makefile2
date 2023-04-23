@@ -55,6 +55,7 @@ CMAKE_BINARY_DIR = /home/hisen/Project/ROS/CR_Mine/build
 # The main recursive "all" target.
 all: gtest/all
 all: dobot_gazebo/all
+all: get_database/all
 all: implement/all
 all: dobot_description/all
 all: cr5_moveit/all
@@ -64,6 +65,7 @@ all: cr5_moveit/all
 # The main recursive "preinstall" target.
 preinstall: gtest/preinstall
 preinstall: dobot_gazebo/preinstall
+preinstall: get_database/preinstall
 preinstall: implement/preinstall
 preinstall: dobot_description/preinstall
 preinstall: cr5_moveit/preinstall
@@ -78,6 +80,7 @@ clean: CMakeFiles/tests.dir/clean
 clean: CMakeFiles/download_extra_data.dir/clean
 clean: gtest/clean
 clean: dobot_gazebo/clean
+clean: get_database/clean
 clean: implement/clean
 clean: dobot_description/clean
 clean: cr5_moveit/clean
@@ -153,6 +156,24 @@ dobot_gazebo/clean: dobot_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.d
 .PHONY : dobot_gazebo/clean
 
 #=============================================================================
+# Directory level rules for directory get_database
+
+# Recursive "all" directory target.
+get_database/all:
+
+.PHONY : get_database/all
+
+# Recursive "preinstall" directory target.
+get_database/preinstall:
+
+.PHONY : get_database/preinstall
+
+# Recursive "clean" directory target.
+get_database/clean: get_database/CMakeFiles/_catkin_empty_exported_target.dir/clean
+
+.PHONY : get_database/clean
+
+#=============================================================================
 # Directory level rules for directory gtest
 
 # Recursive "all" directory target.
@@ -223,7 +244,7 @@ implement/preinstall:
 .PHONY : implement/preinstall
 
 # Recursive "clean" directory target.
-implement/clean: implement/CMakeFiles/_catkin_empty_exported_target.dir/clean
+implement/clean:
 
 .PHONY : implement/clean
 
@@ -877,31 +898,31 @@ dobot_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean:
 .PHONY : dobot_gazebo/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/clean
 
 #=============================================================================
-# Target rules for target implement/CMakeFiles/_catkin_empty_exported_target.dir
+# Target rules for target get_database/CMakeFiles/_catkin_empty_exported_target.dir
 
 # All Build rule for target.
-implement/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f implement/CMakeFiles/_catkin_empty_exported_target.dir/build.make implement/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f implement/CMakeFiles/_catkin_empty_exported_target.dir/build.make implement/CMakeFiles/_catkin_empty_exported_target.dir/build
+get_database/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f get_database/CMakeFiles/_catkin_empty_exported_target.dir/build.make get_database/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f get_database/CMakeFiles/_catkin_empty_exported_target.dir/build.make get_database/CMakeFiles/_catkin_empty_exported_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/hisen/Project/ROS/CR_Mine/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : implement/CMakeFiles/_catkin_empty_exported_target.dir/all
+.PHONY : get_database/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
-implement/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+get_database/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hisen/Project/ROS/CR_Mine/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 implement/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 get_database/CMakeFiles/_catkin_empty_exported_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/hisen/Project/ROS/CR_Mine/build/CMakeFiles 0
-.PHONY : implement/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : get_database/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: implement/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: get_database/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 .PHONY : _catkin_empty_exported_target
 
 # clean rule for target.
-implement/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f implement/CMakeFiles/_catkin_empty_exported_target.dir/build.make implement/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : implement/CMakeFiles/_catkin_empty_exported_target.dir/clean
+get_database/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f get_database/CMakeFiles/_catkin_empty_exported_target.dir/build.make get_database/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : get_database/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

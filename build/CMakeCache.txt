@@ -392,6 +392,12 @@ dobot_gazebo_BINARY_DIR:STATIC=/home/hisen/Project/ROS/CR_Mine/build/dobot_gazeb
 dobot_gazebo_SOURCE_DIR:STATIC=/home/hisen/Project/ROS/CR_Mine/src/dobot_gazebo
 
 //Value Computed by CMake
+get_database_BINARY_DIR:STATIC=/home/hisen/Project/ROS/CR_Mine/build/get_database
+
+//Value Computed by CMake
+get_database_SOURCE_DIR:STATIC=/home/hisen/Project/ROS/CR_Mine/src/get_database
+
+//Value Computed by CMake
 gmock_BINARY_DIR:STATIC=/home/hisen/Project/ROS/CR_Mine/build/gtest/googlemock
 
 //Dependencies for the target
@@ -624,7 +630,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

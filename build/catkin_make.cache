@@ -1,2 +1,2 @@
-cr5_moveit:dobot_description:dobot_gazebo:implement
+cr5_moveit:dobot_description:dobot_gazebo:get_database:implement
 -DCATKIN_DEVEL_PREFIX=/home/hisen/Project/ROS/CR_Mine/devel -DCMAKE_INSTALL_PREFIX=/home/hisen/Project/ROS/CR_Mine/install -G Unix Makefiles
